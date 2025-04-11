@@ -35,7 +35,6 @@ npm ci
 4. Step 4: Run the script file. In the terminal, ensuring that you are in the same folder as the script, run:
 
 ```
-npm i
 npm run start
 ```
 
@@ -45,7 +44,7 @@ npm run start
 
 ```
 filter by Alphabet
-  [] - C
-  [] - B
+  [ ] - C
+  [ ] - B
   ...
 ```
