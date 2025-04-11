@@ -9,13 +9,13 @@ Constructor's algorithms already arranges facet options dynamically, according t
 Given these options, we do not recommend programatically slotting your facet options unless:
 
 1. The facet you're looking to sort on has a typical order users would expect it to be in (i.e. size) and,
-2. The values for this facet options cannot be modified to fit the "Alpha-numeric" sort provided.
+2. The values for these facet options cannot be modified to fit the "Alpha-numeric" sort provided.
 
 ## How to use
 
 1. Step 1: Prepare a .csv file that contains the list of facet options as ingested in your catalog feed, and the corresponding position to slot it. The csv file should have two columns:
-   a. Column 1: The Facet Option to be slotted, as ingested in the catalog feed
-   b. Column 2: The position the option should be slotted in
+   1. Column 1: The Facet Option to be slotted, as ingested in the catalog feed
+   2. Column 2: The position the option should be slotted in
 
 The file `facet-options-positions.csv` is provided as an example.
 
@@ -27,12 +27,14 @@ npm ci
 
 3. Step 3: Define the following top-level variables at the top of this script
 
-| FACET_GROUP_NAME | The parent facet group whose options we're looking to slot |
-| API_KEY | The [index key](https://docs.constructor.com/docs/faq-api-are-the-api-key-and-token-considered-secret#api-token) you're looking to configure |
-| API_TOKEN | [How to generate an API Token](https://docs.constructor.com/docs/using-the-constructor-dashboard-monitoring-integration-status-api-tokens) |
-| CSV_FILEPATH | Path to your `.csv` file |
+Variable | Description
+--- | ---
+FACET_GROUP_NAME | The parent facet group whose options we're looking to slot
+API_KEY | The [index key](https://docs.constructor.com/docs/faq-api-are-the-api-key-and-token-considered-secret#api-token) you're looking to configure
+API_TOKEN | [How to generate an API Token](https://docs.constructor.com/docs/using-the-constructor-dashboard-monitoring-integration-status-api-tokens)
+CSV_FILEPATH | Path to your `.csv` file
 
-4. Step 4: Run the script file. In the terminal, ensuring that you are in the same folder as the script, run:
+5. Step 4: Run the script file. In the terminal, ensuring that you are in the same folder as the script, run:
 
 ```
 npm run start
