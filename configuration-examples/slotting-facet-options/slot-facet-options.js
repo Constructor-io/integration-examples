@@ -71,7 +71,7 @@ async function readCsvToObj(
   });
 }
 
-// --- Step 2: Using the Constructor Node SDK, create the sort option configuration if it doesn't exist or patch if it does
+// --- Step 2: Using the Constructor Node SDK, create the facet option configuration if it doesn't exist or patch if it does
 
 async function uploadFacetOptionConfigs(facetGroupName, facetOptionConfigs) {
   try {
