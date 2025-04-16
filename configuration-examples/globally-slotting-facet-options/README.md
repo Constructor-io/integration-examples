@@ -1,4 +1,4 @@
-# Slotting Facet Options
+# Globally Slotting Facet Options
 
 In this example, we explore the need to programatically slot facet options to achieve the desired order in Constructor's Search/Browse API Responses.
 
@@ -27,12 +27,12 @@ npm ci
 
 3. Step 3: Define the following top-level variables at the top of this script
 
-Variable | Description
---- | ---
-FACET_GROUP_NAME | The parent facet group whose options we're looking to slot
-API_KEY | The [index key](https://docs.constructor.com/docs/faq-api-are-the-api-key-and-token-considered-secret#api-token) you're looking to configure
-API_TOKEN | [How to generate an API Token](https://docs.constructor.com/docs/using-the-constructor-dashboard-monitoring-integration-status-api-tokens)
-CSV_FILEPATH | Path to your `.csv` file
+| Variable         | Description                                                                                                                                  |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| FACET_GROUP_NAME | The parent facet group whose options we're looking to slot                                                                                   |
+| API_KEY          | The [index key](https://docs.constructor.com/docs/faq-api-are-the-api-key-and-token-considered-secret#api-token) you're looking to configure |
+| API_TOKEN        | [How to generate an API Token](https://docs.constructor.com/docs/using-the-constructor-dashboard-monitoring-integration-status-api-tokens)   |
+| CSV_FILEPATH     | Path to your `.csv` file                                                                                                                     |
 
 5. Step 4: Run the script file. In the terminal, ensuring that you are in the same folder as the script, run:
 
