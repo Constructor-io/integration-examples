@@ -14,7 +14,7 @@ Given these options, we do not recommend programatically slotting your facet opt
 ## How to use
 
 1. Step 1: Prepare a .csv file that contains the list of facet options as ingested in your catalog feed, and the corresponding position to slot it. The csv file should have two columns:
-   1. Column 1: The Facet Option to be slotted, as ingested in the catalog feed
+   1. Column 1: The Facet Option value to be slotted, as ingested in the catalog feed
    2. Column 2: The position the option should be slotted in
 
 The file `facet-options-positions.csv` is provided as an example.
@@ -29,7 +29,7 @@ npm ci
 
 | Variable         | Description                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| FACET_GROUP_NAME | The parent facet group whose options we're looking to slot                                                                                   |
+| FACET_GROUP_NAME | The parent facet group name whose options we're looking to slot                                                                              |
 | API_KEY          | The [index key](https://docs.constructor.com/docs/faq-api-are-the-api-key-and-token-considered-secret#api-token) you're looking to configure |
 | API_TOKEN        | [How to generate an API Token](https://docs.constructor.com/docs/using-the-constructor-dashboard-monitoring-integration-status-api-tokens)   |
 | CSV_FILEPATH     | Path to your `.csv` file                                                                                                                     |
