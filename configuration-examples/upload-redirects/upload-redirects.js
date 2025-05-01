@@ -2,7 +2,7 @@ const fs = require('fs');
 const ConstructorIOClient = require('@constructor-io/constructorio-node');
 const Papa = require('papaparse');
 
-// Workflow - Given a .csv file in the format: | url | unordered_matches | phrase_matches | exact_matches |, create the redirect rules
+// Workflow - Given a .csv file in the format: | url | exact_matches | phrase_matches | unordered_matches |, create the redirect rules
 // Step 1: Read the .csv file into the appropriate format Constructor expects
 // Step 2: Upload the redirects
 

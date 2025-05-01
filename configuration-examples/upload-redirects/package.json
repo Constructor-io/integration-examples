@@ -1,7 +1,7 @@
 {
   "name": "upload-redirects",
   "version": "0.0.1",
-  "description": "Tutorial: Uploding Redirects Programmatically using Constructor's APIs",
+  "description": "Tutorial: Uploading Redirects Programmatically using Constructor's APIs",
   "main": "upload-redirects.js",
   "scripts": {
     "start": "node upload-redirects.js"
