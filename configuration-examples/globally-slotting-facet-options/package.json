@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/constructor-io/integration-examples#readme",
   "dependencies": {
-    "@constructor-io/constructorio-node": "^5.1.1",
+    "@constructor-io/constructorio-node": "^5.10.0",
     "papaparse": "^5.5.2"
   }
 }
