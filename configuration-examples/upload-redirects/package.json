@@ -1,0 +1,28 @@
+{
+  "name": "upload-redirects",
+  "version": "0.0.1",
+  "description": "Tutorial: Uploading Redirects Programmatically using Constructor's APIs",
+  "main": "upload-redirects.js",
+  "scripts": {
+    "start": "node upload-redirects.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constructor-io/integration-examples.git"
+  },
+  "keywords": [
+    "redirects",
+    "constructor",
+    "constructorio"
+  ],
+  "author": "@mudaafi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constructor-io/integration-examples/issues"
+  },
+  "homepage": "https://github.com/constructor-io/integration-examples#readme",
+  "dependencies": {
+    "@constructor-io/constructorio-node": "^5.2.0",
+    "papaparse": "^5.5.2"
+  }
+}
